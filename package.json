@@ -1,0 +1,38 @@
+{
+  "name": "obsidian-translate-plugin",
+  "version": "1.0.0",
+  "description": "A comprehensive translation plugin for Obsidian that supports multiple translation services and provides various display modes",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "version": "node version-bump.mjs && git add manifest.json versions.json",
+    "check": "tsc -noEmit -skipLibCheck",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "translation",
+    "translate",
+    "ai",
+    "openai",
+    "baidu",
+    "tencent"
+  ],
+  "author": "Obsidian Translate Plugin Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.17.3",
+    "eslint": "8.18.0",
+    "obsidian": "latest",
+    "tslib": "2.4.0",
+    "typescript": "4.7.4"
+  },
+  "dependencies": {}
+}
