@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-translate-plugin",
+  "name": "Translate Plugin",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "A comprehensive translation plugin that supports multiple translation services (OpenAI, Baidu, Tencent, Custom APIs) with various display modes (modal, sidebar, inline) and automatic plugin settings translation.",
+  "author": "Obsidian Translate Plugin Team",
+  "authorUrl": "",
+  "fundingUrl": "",
+  "isDesktopOnly": false
+}
